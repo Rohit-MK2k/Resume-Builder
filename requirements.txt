@@ -1,0 +1,10 @@
+openai
+langchain
+numpy
+torch 
+panda
+langchain-huggingface
+huggingface_hub
+transformers
+accelerate
+bitsandbytes

@@ -1,0 +1,124 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+
+# Distribution / packaging
+dist/
+build/
+develop-eggs/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Virtual Environment
+venv/
+env/
+ENV/
+.env
+.venv/
+.env.*
+myenv/
+
+# IDEs and editors
+.idea/
+.vscode/
+*.swp
+*.swo
+.project
+.pydevproject
+.settings/
+*.sublime-workspace
+*.sublime-project
+
+# Testing
+.pytest_cache/
+.coverage
+htmlcov/
+.tox/
+.nox/
+coverage.xml
+*.cover
+.hypothesis/
+.pytest_cache/
+nosetests.xml
+
+# LangChain specific
+.env
+vectors/
+chromadb/
+.chroma/
+embeddings/
+vector_store/
+model_cache/
+
+# Data and documents
+data/
+documents/
+uploads/
+downloads/
+temp/
+tmp/
+
+# Logs and databases
+*.log
+*.sqlite
+*.db
+*.sqlite3
+logs/
+
+# Model files and artifacts
+*.bin
+*.gguf
+*.pt
+*.pth
+*.onnx
+*.model
+saved_models/
+
+# Docker
+.docker/
+docker-compose.override.yml
+
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Jupyter Notebook
+.ipynb_checkpoints
+*.ipynb
+
+# API keys and secrets
+*.pem
+*.key
+credentials.json
+token.json
+secrets.yaml
+config.yaml
+
+# Dependencies
+pip-lock.txt
+poetry.lock
+Pipfile.lock
+
+# Local development
+local_settings.py
+settings_local.py
+
+secret.py
